@@ -1,0 +1,38 @@
+{
+  "name": "bear-jekyll",
+  "version": "0.0.1",
+  "description": "CLI program that synchronizes bear app's memo with jekyll's _draft folder",
+  "main": "app.js",
+  "bin": {
+    "bear-jekyll": "app.js"
+  },
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/booldook/bear-jekyll.git"
+  },
+  "keywords": [
+    "bear",
+    "jekyll",
+    "sqlite",
+    "bearapp"
+  ],
+  "author": "booldook",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/booldook/bear-jekyll/issues"
+  },
+  "homepage": "https://github.com/booldook/bear-jekyll#readme",
+  "dependencies": {
+    "better-sqlite3": "^7.4.5",
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0",
+    "fs-extra": "^10.0.0",
+    "lodash": "^4.17.21",
+    "sqlite3": "^4.2.0",
+    "uuid": "^8.3.2"
+  }
+}
